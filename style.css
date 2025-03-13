@@ -1,0 +1,116 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.primari-color{
+    background: rgb(255, 248, 243);
+}
+.primari-title{
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    font-size: 35px;
+}
+.primary-info{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+/* header style */
+.header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1px 200px;
+}
+.nav-titla{
+    font-size: 45px;
+    font-weight: 800;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nav-titla span{
+    color: #FD6E0A;
+}
+nav ul li{
+    list-style: none;
+    color: #474747;
+    font-size: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+.btn{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    border: none;
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px 0 230px;
+}
+.banner-content{
+    width: 585px;;
+}
+.banner-content h1{
+    font-size: 45px;
+    font-weight: 600;  
+}
+.banner-content h2{
+    font-size: 85px;
+    font-weight: 700;
+    margin: 35px 0px;
+}
+.banner-content p{
+    font-size: 18px;
+}
+.banner-img{
+    width: 584px;
+}
+.banner-img img{
+    width: 100%;
+}
+/* main style */
+main{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 150px 130px;
+    text-align: center;
+    margin-top: 130px;
+}
+.deriscription{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 10px 10px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.about-items h4{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 700;
+}

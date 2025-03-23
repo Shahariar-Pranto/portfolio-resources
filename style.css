@@ -135,3 +135,62 @@ nav ul li a {
     background: rgb(255, 255, 255);
     padding: 30px;
 }
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+.reusme-colum-title{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+.education{
+    margin: 70px 0;
+}
+.resume-subtiel, .detles{
+    color: rgb(117, 117, 117);
+}
+.resume-title{
+    color: rgb(71, 71, 71);
+    font-weight: 700;
+    font-size: 25px;
+}
+.resume-subtiel{
+    font-size: 20px;
+    font-weight: 600;
+}
+.detles{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* footer style */
+footer{
+    margin-top: 80px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+footer textarea{
+    height: 180px;
+}

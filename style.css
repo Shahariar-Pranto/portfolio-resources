@@ -30,7 +30,6 @@ main section{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-
 /* nav style */
 nav{
     display: flex;
@@ -65,8 +64,11 @@ nav ul li a {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: bold;
-    padding: 18px 35px;
+    padding: 18px 30px;
     border: none;
+}
+.btn i{
+    margin-right: 10px;
 }
 /* banner style */
 .banner{
@@ -96,7 +98,6 @@ nav ul li a {
 .banner-img img{
     width: 100%;
 }
-
 /* about style */
 .about{
     border-radius: 10px;
